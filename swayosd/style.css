@@ -1,0 +1,14 @@
+window {
+  background: rgba(30, 30, 30, 0.9);
+  border-radius: 18px;
+}
+
+scale trough {
+  background: rgba(255,255,255,0.15);
+  border-radius: 10px;
+}
+
+scale highlight {
+  background: #3584e4;
+  border-radius: 10px;
+}
