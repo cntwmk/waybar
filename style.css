@@ -1,0 +1,72 @@
+/* ===== Global ===== */
+* {
+  border: none;
+  border-radius: 0;
+  font-family: "Cantarell", "JetBrainsMono Nerd Font";
+  font-size: 13px;
+  min-height: 0;
+}
+
+/* ===== Bar ===== */
+window#waybar {
+  background: rgba(30, 30, 30, 0.92);
+  color: #ffffff;
+  border-radius: 14px;
+  margin: 6px 10px;
+}
+
+/* ===== Modules ===== */
+#workspaces button {
+  padding: 4px 10px;
+  margin: 4px 2px;
+  border-radius: 10px;
+  background: transparent;
+  color: #bbbbbb;
+}
+
+#workspaces button.active {
+  background: #3584e4;
+  color: #ffffff;
+}
+
+#workspaces button:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+/* Center window title */
+#window {
+  font-weight: 500;
+  padding: 0 10px;
+}
+
+/* Right modules */
+#network,
+#bluetooth,
+#pulseaudio,
+#battery,
+#clock,
+#custom-quick {
+  padding: 0 10px;
+  margin: 4px 2px;
+  border-radius: 10px;
+}
+
+/* Hover effect */
+#network:hover,
+#bluetooth:hover,
+#pulseaudio:hover,
+#battery:hover,
+#clock:hover,
+#custom-quick:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+/* Clock special */
+#clock {
+  font-weight: 600;
+}
+
+/* Quick settings button */
+#custom-quick {
+  background: rgba(255, 255, 255, 0.08);
+}
